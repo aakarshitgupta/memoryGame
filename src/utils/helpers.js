@@ -14,10 +14,9 @@ export function shuffleArray(array) {
     return deck;
   }
   
-  // 🆕 Function to get the best score from localStorage
   export function getBestScore(gridSize, gameMode) {
     const best = JSON.parse(localStorage.getItem('bestScores')) || {};
     const key = `grid${gridSize}-${gameMode}`;
-    return best[key] || { time: Infinity, attempts: Infinity }; // Return default if no score found
+    return best[key] || { time: Infinity, attempts: Infinity }; 
   }
   

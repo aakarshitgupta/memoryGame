@@ -6,7 +6,7 @@
       onChange={(e) => {
         setGameMode(e.target.value);
         if (e.target.value === 'timed') {
-          setTimeLeft(60); // reset timer if switched to timed
+          setTimeLeft(60); 
         }
       }}
     >

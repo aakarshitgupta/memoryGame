@@ -10,7 +10,7 @@ export default function Card({ card, onClick }) {
           <div className="card-front">?</div>
           <div className="card-back">{card.symbol}</div>
   
-          {/* Particle effect container, only shown when card is matched */}
+          {}
           {card.isMatched && (
             <div className="particle-container">
               {Array.from({ length: 10 }).map((_, i) => (
@@ -18,8 +18,8 @@ export default function Card({ card, onClick }) {
                   key={i}
                   className="particle"
                   style={{
-                    '--x': `${Math.random() * 100 - 50}px`,  // Random x movement
-                    '--y': `${Math.random() * 100 - 50}px`,  // Random y movement
+                    '--x': `${Math.random() * 100 - 50}px`, 
+                    '--y': `${Math.random() * 100 - 50}px`, 
                   }}
                 />
               ))}

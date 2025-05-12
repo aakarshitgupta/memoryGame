@@ -116,7 +116,6 @@ export default function App() {
     }
   };
 
-  // ✅ Update best score ONLY after game completion
   useEffect(() => {
     const totalPairs = (gridSize * gridSize) / 2;
     if (matches === totalPairs && !gameComplete) {
