@@ -39,7 +39,7 @@ A stylish and engaging **Memory Card Match Game** built with **React** and **Vit
 
 ## 🚀 Live Demo
 
-👉 [Play Now on Vercel](https://your-vercel-app.vercel.app)
+👉 https://memory-game-wheat-rho.vercel.app/
 
 ---
 
